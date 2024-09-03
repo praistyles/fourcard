@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* CSS RESET */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* IMAGES RESET */
+img, svg{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+html{
+
+}
+
+body{
+    display: flex;
+    flex-flow: column wrap;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: #a3a5ae;
+}
+
+h1{
+    font-weight: 200;
+    color: #4c4e61;
+    font-size: 1.6rem;
+}
+
+h2 {
+    color: #4c4e61;
+    font-size: 1.5rem;
+}
+
+h3{
+    color: #4c4e61;
+    font-size: 1rem; 
+    font-weight: 600;
+}
+
+.allcont{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topcont{
+    text-align: center;
+    margin-top: 4em;
+}
+.topp{
+    padding: 1rem 2.5rem;
+}
+
+.cardcont{
+    
+    font-size: 0.8rem;
+    font-weight: 300;
+
+    
+
+}
+
+.resize{
+    width: 40px;
+    height: 40px;
+    margin: 1rem;
+
+
+}
+.supervisor, .karma, .team-builder, .calculator{
+    border-top: 3px solid #45d3d3;
+    padding: 1rem;
+    padding-right: 2rem;
+    box-shadow: 0px 0px 10px #47474765;
+    width: 300px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.karma{
+    border-top: 3px solid #ffa500;
+}
+
+.team-builder{
+    border-top: 3px solid #ea5353;
+}
+
+.calculator{
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+
+
+.supicon, .buildicon, .karmaicon, .calicon {
+    margin-left: 15em;
+}
+
+@media(min-width: 580px) {
+    .topcont{
+        width: 580px;
+    }
+}
+
+@media(min-width: 1440px) {
+    .topcont{
+        width: 580px;
+        margin-bottom: 2rem;
+    }
+
+    .cardcont{
+        display: flex;
+        gap: 2rem;
+
+    }
+    .supervisor{
+        height: 170px;
+        margin-top: 7em;
+    }
+
+    .calculator{
+        height: 170px;
+        margin-top: 7em; 
+    }
+
+    
+    }
+
+
+
+
+}
